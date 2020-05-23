@@ -1,0 +1,232 @@
+/* 
+font-family: 'Bree Serif', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+body {background-color: #ebf7e8f3;  font-family: 'Merriweather', serif;   margin-left: auto; margin-right: auto; }
+
+.TopHeader {background-color: rgba(0, 0, 0, 0.548);  }
+
+.header {width: 90%; border: 3px solid; height: 50px; position: relative; top: 0px; margin: auto; border-color: transparent;} 
+
+top_header {margin: auto;}
+
+content { background-color: rgb(220, 221, 247);
+  width: 90%;
+  margin-left: 5%;
+  height: 300px;
+  margin-top: 20px;
+}
+
+ 
+.content_container {
+  width: 90%;
+  margin-left: 5%;
+  height: 300px;
+  margin-top: 20px;
+  background-color: #f0eff766;
+}
+  
+content h2 {
+  position: relative;
+  font-size: 30px;
+  line-height: 50px;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center }
+
+h1 { color:  #6f7cf1; font-family: 'Bree Serif', serif; text-shadow: black; margin: auto;
+}
+
+h2 { font-family: 'Montserrat', sans-serif; }
+
+h3 {font-family: 'Montserrat', sans-serif; color: white;}
+
+
+p { font-family: 'Montserrat', sans-serif;  }
+
+ /* --------------------CONTENT CONTAINER HOME--------------------------------*/
+
+
+.Slider_content {
+    background-image: url("../Images/sliderimage2.jpg");
+    padding-bottom: 230px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto auto auto auto;
+    position: relative;
+    height: 0px;
+    width: 90%;
+    
+    
+    }
+ 
+  .Slider_content h1 { 
+    position: relative; right: 300px; top: 43px; left: 204px; color: white; display: inline-block;
+    background: -webkit-linear-gradient(#eee, rgb(200, 205, 245)); -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; filter: drop-shadow(2px 2px rgb(51, 51, 51));
+   } 
+
+  .Slider_content p { position: absolute; top: 92px; left: 204px;}
+
+  
+
+  .Slider_content p {position: absolute;  }
+  
+ 
+
+
+
+.skiing_img img {
+  margin: auto;
+
+  position: absolute;
+  border: outset;
+  
+  height: auto;
+
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 20%;
+  height: auto;
+  transform: scale(1);
+
+  
+}
+
+.skiing_img:hover img {
+  transform: scale(1.1);
+  
+}
+
+#skiingadventures p {
+  position: relative;
+  top: 216px;
+  left: 53px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: darkslategray;
+  font-weight: bold;
+  display: inline-block;
+  padding: 14px;
+}
+ 
+   
+
+/* --------------------CONTENT CONTAINER Skiing--------------------------------*/
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: relative;
+  width: 100%;
+  border: ridge;
+}
+#skiing_sliderheading {
+  color:  #6f7cf1; font-family: 'Bree Serif', serif; 
+  position: absolute;
+    bottom: 171px;
+    left: 99px;
+    background: -webkit-linear-gradient(#eee, rgb(200, 205, 245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px rgb(51, 51, 51));
+}
+
+
+
+
+/*----------------- menu  --------------
+------------------------------------------*/
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #ebf7e8f3;
+  font-family: Arial;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+ 
+ 
+  
+}
+
+.contactus a {
+    overflow: hidden;
+    background-color: #ebf7e8f3;
+    font-family: Arial;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    postion: absolute;
+}
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+  
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(202, 190, 240);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
